@@ -2,7 +2,7 @@ provider "ibm" {
 }
 
 data "ibm_resource_group" "cos_group" {
-  name = "default"
+  name = "Defaultabcdef123 "
 }
 
 module "cos" {
