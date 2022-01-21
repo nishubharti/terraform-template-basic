@@ -15,7 +15,7 @@ module "cos" {
   #resource_group_id= "66e101aa10194a809c39227c95aa8e94" #p
   resource_group_id= "959a39a9a19e46d9b7e772e239ddf25d" #s
   #plan              = "standard"
-  plan = "Lite"
+  plan = "lite"
   region            = "global"
   create_timeout    = "15m"
   update_timeout    = "15m"
