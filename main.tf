@@ -12,8 +12,8 @@ module "cos" {
   //source = "../../modules/instance"
   # bind_resource_key = var.bind_resource_key
   service_name      = "test_cos_bucket"
-  #resource_group_id = "2a374cc74db644b48b2bef47539cbfee"
-  resource_group_id= "66e101aa10194a809c39227c95aa8e94"
+  #resource_group_id= "66e101aa10194a809c39227c95aa8e94" #p
+  resource_group_id= "959a39a9a19e46d9b7e772e239ddf25d"
   plan              = "standard"
   region            = "global"
   create_timeout    = "15m"
