@@ -31,11 +31,11 @@ data "ibm_resource_group" "resource_group" {
 }
 
 resource "ibm_is_vpc" "vpc" {
-    name = "vpc"
+    name = "vpc1"
 }
 
 resource "ibm_is_subnet" "subnet" {
-    name                     = "subnet"
+    name                     = "subnet1"
     vpc                      = ibm_is_vpc.vpc.id
     zone                     = "us-south-1"
     total_ipv4_address_count = 256
