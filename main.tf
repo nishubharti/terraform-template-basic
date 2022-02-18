@@ -22,7 +22,7 @@ module "cos" {
   delete_timeout    = "15m"
 }
 
-module1 "cos" {
+module "cos1" {
   // Uncommnet the following line to point the source to registry level
   source = "terraform-ibm-modules/cos/ibm//modules/instance"
 
