@@ -1,9 +1,9 @@
 provider "ibm" {
 }
 
-data "ibm_resource_group" "cos_group" {
-  name = "Default"
-}
+# data "ibm_resource_group" "cos_group" {
+#   name = "Default"
+# }
 
 module "cos" {
   // Uncommnet the following line to point the source to registry level
