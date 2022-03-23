@@ -31,7 +31,7 @@ data "ibm_resource_group" "resource_group" {
 }
 
 resource "ibm_is_vpc" "vpc" {
-    name = "vpc2"
+    name = "vpc212"
 }
 
 resource "ibm_is_subnet" "subnet" {
