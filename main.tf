@@ -17,6 +17,7 @@ module "cos" {
   resource_group_id="f8ceaec00ee14de48ee802cf11202a81" #poc
 #   plan              = "lite"
 #   plan = "lite"
+   plan     = "standard"
   region            = "global"
   create_timeout    = "15m"
   update_timeout    = "15m"
